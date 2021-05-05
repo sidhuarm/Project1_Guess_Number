@@ -22,11 +22,11 @@ int main(){
                 scanf("%d",&guess);
                 count++;
                 if(guess> random){
-                printf("Your guess is higher than number. Please try again \n");
+                printf("Lower NUmber Please. Please try again \n");
                 continue; 
                 }
                 if(guess < random){
-                printf("Your guess is lower than number. Please try again \n");  
+                printf("Higher Number Please. Please try again \n");  
                 continue;  
                 }
                 if(guess == random){
@@ -39,7 +39,7 @@ int main(){
       printf("Do you want to play again? Enter 1 for yes or 0 for no ? \n" ); // Asking user to play again
       scanf("%d",&tryagain);
 
-      if(tryagain == 1){
+      if(tryagain == 1 ){
           continue;
       }
       else if(tryagain == 0){
